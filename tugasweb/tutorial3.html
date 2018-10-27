@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<!-- Start Head-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Responsive Web Design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tutorial Ke 3</title>
+
+	<!-- CSS Layout-->
+	<link rel="stylesheet" href="css/layout.css">
+</head>
+<!-- End Head-->
+<body>
+	<header>
+		<p>Tutorial Form</p>
+	</header>
+
+	<section>
+		<nav>
+			<ol>
+				<li><button onclick="view1();">HTML Form Elements</button></li>
+				<li><button onclick="view2();">HTML Input Types</button></li>
+				<li><button onclick="view3();">HTML Input Attributes</button></li>
+			</ol>
+		</nav>
+
+		<article>
+			<div id="tampil0">
+				<h2>HTML Form</h2>
+				<p>Elemen formulir adalah berbagai jenis elemen masukan, seperti bidang teks, kotak centang, tombol radio, tombol kirim, dan banyak lagi.</p>
+			</div>
+			<div id="tampil1">
+				<h2>HTML Form Elements</h2>
+				<form action="#">
+					1. Masukan (input) :<br>
+					<input name="firstname" type="text">
+					<br><br>
+					2. Pilih (select) : <br>
+					<select name="cars">
+						<option value="volvo">Nurul</option>
+						<option value="saab">Wulan</option>
+						<option value="fiat">Jelly</option>
+						<option value="audi">Al Gzl</option>
+					</select>
+					<br><br>
+					3. Memo (textarea) :<br>
+					<textarea name="message" rows="10" cols="30">Form adalah sebuah objek kontrol penampung dari objek kontrol lain,.</textarea>
+					<br><br>
+					<input type="submit">
+				</form>
+			</div>
+			<div id="tampil2">
+				<h3>HTML Input Types</h3>
+				<form action="#">
+					1. Text:
+					<input type="text" name="nama" >
+					<br><br>
+					2. Email :
+					<input type="email" name="email">
+					<br><br>
+					2. Password :
+					<input type="password" name="pass">
+					<br><br>
+					3. Tanggal :
+					<input type="date" name="date">
+					<br><br>
+					4. Radio button :<br>
+					<input type="radio" name="gender" value="male" checked> Laki-Laki<br>
+					<input type="radio" name="gender" value="female" checked> Wanita<br>
+					<br><br>
+					5. CheckBox : <br>
+					<input type="checkbox" name="vehicle1" value="Bike">IPA<br>
+					<input type="checkbox" name="vehicle2" value="Car">IPS
+					<br><br>
+					<input type="submit" value="Submit">
+					<input type="reset">
+				</form>
+			</div>
+			<div id="tampil3">
+				<h2>HTML Input Attributes</h2>
+				<form action="">
+					1. Input Atribut:
+					<input type="text" name="nama" >
+					<br><br>
+
+					2. Atribut Nilai :
+					<input type="number" name="email">
+					<br><br>
+
+					3. Atribut Read-Only  :
+					<input type="text" name="nama" value="AL Gzl" readonly>
+					<br><br>
+
+					4. Atribut Disable :
+					<input type="text" name="nama" value="AL Gzl" disabled>
+					<br><br>
+
+					5. Atribut Ukuran (50):
+					<input type="text" name="nama" value="AL Gzl" size="50">
+					<br><br>
+
+					6. Atribut Max-Length (5) :
+					<input type="text" name="nama" maxlength="5">
+					
+				</form>
+			</div>
+		</article>
+	</section>
+
+	<footer>
+		<p>Kelompok</p>
+		<p>Febri Wulandari | Nurul Hidayah | Geilang Jelly Ramadhan | Shofiyullah AL Ghozaly</p>
+	</footer>
+
+	<script src="js/main3.js" type="text/javascript"></script>
+	
+</body>
+</html>
